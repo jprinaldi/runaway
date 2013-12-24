@@ -253,8 +253,8 @@ changeLevel = do
     s <- getLine
     putStrLn "Retrieving information...\n"
     case toLevel s of
-            Nothing -> putStrLn "Invalid input.\n"
-            Just lvl -> goToLevel lvl
+        Nothing -> putStrLn "Invalid input.\n"
+        Just lvl -> goToLevel lvl
 
 -- Main
 main :: IO ()
